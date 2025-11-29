@@ -1,6 +1,28 @@
-# Fashionista v2 — Enhanced Fullstack Demo
+# Fashionista ECommerce Website
 
-!(screenshots/Homepage.png)  
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Homepage](screenshots/Homepage.png)
+
+### 👗 Product View Page
+![Viewpage](screenshots/Viewpage.png)
+
+### 🛒 Cart Page
+![Cartpage](screenshots/Cartpage.png)
+
+### 💳 Checkout Page
+![Checkoutpage](screenshots/Checkoutpage.png)
+
+### ✔️ Order Confirmation Page
+![Confirmation](screenshots/Confirmation.png)
+
+### 🔐 Login Page
+![Loginpage](screenshots/Loginpage.png)
+
+### 📝 Signup Page
+![Signuppage](screenshots/Signuppage.png)
+
 
 ## Overview
 
