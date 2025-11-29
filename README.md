@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Fashionista v2 — Enhanced Fullstack Demo
 
 What's new:
@@ -19,3 +20,6 @@ Run instructions:
 Notes:
 - This is a demo. Payments are simulated (no real gateway).
 - If you want real images instead of SVG placeholders, you can replace files in static/images/ with your JPG/PNG images keeping filenames referenced in products.json or DB.
+=======
+# Fashionista-Full-E-Commerce-Website-Flask-MySQL
+>>>>>>> 0f44d6bc09302c12ad51db2a589651b8f2dc646f
