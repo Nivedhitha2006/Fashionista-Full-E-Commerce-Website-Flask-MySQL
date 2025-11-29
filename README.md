@@ -1,25 +1,98 @@
-<<<<<<< HEAD
-# Fashionista v2 — Enhanced Fullstack Demo
+# Fashionista ECommerce Website
 
-What's new:
-- Many more products and images (placeholder SVGs included). Each product has sizes, colors, brand, price, description.
-- Working Search (instant) and Sort (price/name/brand).
-- Favorites (Add to wishlist) stored in session.
-- User signup/login (basic, for demo) with MySQL support; falls back to JSON when MySQL not configured.
-- Admin panel to add/edit products (form-based). Admin auth is simple: create user with is_admin flag in DB.
-- Animations & improved interactive styling (red/pink/orange theme).
-- Updated requirements: mysql-connector-python==8.0.33
+## 📸 Screenshots
 
-Run instructions:
-1. Create & activate venv
-2. pip install -r requirements.txt
-3. (Optional) configure MySQL and run init_db.sql
-4. python app.py
-5. Open http://127.0.0.1:5000
+### 🏠 Home Page
+![Homepage](screenshots/Homepage.png)
 
-Notes:
-- This is a demo. Payments are simulated (no real gateway).
-- If you want real images instead of SVG placeholders, you can replace files in static/images/ with your JPG/PNG images keeping filenames referenced in products.json or DB.
-=======
-# Fashionista-Full-E-Commerce-Website-Flask-MySQL
->>>>>>> 0f44d6bc09302c12ad51db2a589651b8f2dc646f
+### 👗 Product View Page
+![Viewpage](screenshots/Viewpage.png)
+
+### 🛒 Cart Page
+![Cartpage](screenshots/Cartpage.png)
+
+### 💳 Checkout Page
+![Checkoutpage](screenshots/Checkoutpage.png)
+
+### ✔️ Order Confirmation Page
+![Confirmation](screenshots/Confirmation.png)
+
+### 🔐 Login Page
+![Loginpage](screenshots/Loginpage.png)
+
+### 📝 Signup Page
+![Signuppage](screenshots/Signuppage.png)
+
+
+## Overview
+
+**Fashionista ** is a **full-stack e-commerce demo** showcasing a fashion store with interactive features, user authentication, and an admin panel. Built using **Python Flask**, **MySQL**, **HTML/CSS/JS**, it provides a modern, responsive, and animated UI for demonstration purposes.
+
+## Features
+
+### Products
+- Multiple products with **sizes, colors, brand, price, and description**.
+- Placeholder images (SVGs) included.
+- **Instant Search** and **Sorting** by price, name, or brand.
+
+### User Features
+- **Signup/Login** system with MySQL support (fallback to JSON if MySQL not configured).
+- **Favorites/Wishlist** stored in session.
+- Interactive, session-based shopping experience.
+
+### Admin Features
+- Admin panel to **add/edit products** via forms.
+- Simple admin authentication using `is_admin` flag in the database.
+
+### UI & Styling
+- Smooth animations and transitions.
+- Responsive design with a **red/pink/orange theme**.
+- Interactive hover effects for products.
+
+## Tech Stack
+
+- **Backend:** Python Flask
+- **Frontend:** HTML5, CSS3, JavaScript
+- **Database:** MySQL (optional, JSON fallback available)
+- **Python Packages:** See `requirements.txt`
+
+## Installation & Run Instructions
+
+1. Clone or download the repository:
+git clone <your-repo-url>
+cd Fashionista-v2
+Create & activate a virtual environment:
+
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# macOS/Linux
+python3 -m venv venv
+source venv/bin/activate
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Configure MySQL and initialize the database:
+
+# Import the SQL file
+mysql -u <username> -p <database_name> < init_db.sql
+
+Run the application:
+python app.py
+
+Requirements:
+Flask
+mysql-connector-python==8.0.33
+Werkzeug
+See requirements.txt for complete list.
+
+License
+MIT License (Demo Project)
+
+Author:
+Nivedhitha K
+
+
