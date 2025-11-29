@@ -82,7 +82,6 @@ mysql -u <username> -p <database_name> < init_db.sql
 
 Run the application:
 python app.py
-Open your browser at http://127.0.0.1:5000
 
 Requirements:
 Flask
