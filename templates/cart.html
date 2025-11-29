@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Cart — Fashionista</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">fashionista</div>
+  </header>
+
+  <main class="container cart-page">
+    <h2>Your Cart</h2>
+    <div id="cartItems"></div>
+    <div id="cartSummary" class="cart-summary"></div>
+    <div class="cart-actions">
+      <a href="/" class="btn">Continue Shopping</a>
+      <a id="checkoutBtn" href="/checkout" class="btn primary">Proceed to Checkout</a>
+    </div>
+  </main>
+
+  <script src="/static/js/main_v2.js"></script>
+  <script>updateCartCount(); renderCart();</script>
+</body>
+</html>

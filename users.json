@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "email": "admin@fashionista.test",
+    "password": "adminpass",
+    "name": "Admin",
+    "is_admin": 1
+  }
+]

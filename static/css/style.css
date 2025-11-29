@@ -1,0 +1,58 @@
+:root{--accent1:#ff4d6d;--accent2:#ff8a65;--accent3:#ffb199;--bg:#fff7f5;--card:#ffffff;--muted:#666}
+*{box-sizing:border-box;font-family:Inter, system-ui, Arial, sans-serif}
+body{margin:0;background:linear-gradient(180deg,var(--bg),#fff);color:#222;min-height:100vh}
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:12px 20px;background:linear-gradient(90deg,var(--accent1),var(--accent2));color:white;position:sticky;top:0;z-index:5}
+.brand{font-weight:900;font-size:22px;letter-spacing:3px;text-transform:lowercase}
+.search{display:flex;gap:8px;align-items:center}
+.search input, .search select{padding:10px;border-radius:10px;border:none;outline:none;min-width:140px}
+.search button{padding:8px 12px;border-radius:10px;border:none;background:var(--accent3);cursor:pointer}
+.container{max-width:1200px;margin:22px auto;padding:0 16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card{background:var(--card);padding:12px;border-radius:14px;box-shadow:0 6px 18px rgba(0,0,0,0.06);transition:transform .18s}
+.card:hover{transform:translateY(-8px)}
+.card img{width:100%;height:260px;object-fit:cover;border-radius:10px;display:block}
+.price{font-weight:700;color:var(--accent1);margin:8px 0}
+.brand-name{font-size:13px;color:var(--muted)}
+.btn{display:inline-block;padding:8px 12px;border-radius:10px;border:2px solid var(--accent2);text-decoration:none;color:var(--accent2);cursor:pointer;margin-right:6px}
+.btn.primary{background:linear-gradient(90deg,var(--accent1),var(--accent2));color:white;border:none}
+.footer{padding:22px;text-align:center;color:var(--muted)}
+.product-page{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}
+.image-block img{width:100%;border-radius:12px;box-shadow:0 8px 30px rgba(255,77,109,0.12)}
+.info-block h1{margin:0 0 6px 0}
+.cart-item{display:flex;gap:12px;padding:12px;border-radius:10px;background:linear-gradient(90deg,#fff,#fff);margin-bottom:10px;align-items:center}
+.cart-item img{width:90px;border-radius:8px}
+.cart-summary{margin-top:12px;padding:12px;background:#fff;border-radius:10px;box-shadow:0 6px 16px rgba(0,0,0,0.06)}
+.checkout-form label{display:block;margin-bottom:10px}
+.checkout-form input, .checkout-form textarea{width:100%;padding:10px;border-radius:8px;border:1px solid #eee}
+.success{padding:20px;background:linear-gradient(90deg,#eaffef,#fff);border-radius:10px}
+@media (max-width:900px){
+  .product-page{grid-template-columns:1fr}
+  .search{display:none}
+}
+/* WhatsApp Floating Button */
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 25px;
+    right: 25px;
+    background-color: #25d366;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+    background-color: #1ebe5c;
+}
+
+.whatsapp-icon {
+    width: 34px;
+    height: 34px;
+}

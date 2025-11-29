@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "Rosy Satin Dress",
+    "brand": "Petal & Co",
+    "price": 49.99,
+    "image": "rosy_satin.png",
+    "description": "Elegant rosy satin mini dress \u2014 perfect for parties.",
+    "sizes": "S,M,L",
+    "colors": "pink"
+  },
+  {
+    "id": 2,
+    "name": "Sunset Maxi",
+    "brand": "Amber Lane",
+    "price": 69.0,
+    "image": "sunset_maxi.png",
+    "description": "Flowy maxi with warm orange tones.",
+    "sizes": "M,L",
+    "colors": "orange,peach"
+  },
+  {
+    "id": 3,
+    "name": "Candy Crop Top",
+    "brand": "SugarPop",
+    "price": 19.5,
+    "image": "candy_top.png",
+    "description": "Playful crop top in bubblegum pink.",
+    "sizes": "XS,S,M",
+    "colors": "pink"
+  },
+  {
+    "id": 4,
+    "name": "Blush Trench",
+    "brand": "UrbanChic",
+    "price": 89.99,
+    "image": "Blush_Trench.png",
+    "description": "Lightweight trench coat in blush pink.",
+    "sizes": "M,L,XL",
+    "colors": "blush"
+  },
+  {
+    "id": 5,
+    "name": "Coral Knit",
+    "brand": "Knit&Co",
+    "price": 39.0,
+    "image": "coral_knit.png",
+    "description": "Cozy coral knit sweater for cool evenings.",
+    "sizes": "S,M,L,XL",
+    "colors": "coral"
+  },
+  {
+    "id": 6,
+    "name": "Anarkali Dress ",
+    "brand": "Petal & Co",
+    "price": 59.0,
+    "image": "Anarkali.png",
+    "description": "A peach Anarkali suit is an elegant and versatile ethnic ensemble, known for its flattering, flowy silhouette in a soft, universally flattering peach hue. It typically features a long, flared kurta paired with coordinating bottoms and a dupatta, and can range from minimally designed for daytime wear to heavily embellished for festive occasions.",
+    "sizes": "S,M,L",
+    "colors": "peach"
+  },
+  {
+    "id": 7,
+    "name": "Floral Wrap",
+    "brand": "BloomWear",
+    "price": 45.0,
+    "image": "floral_wrap.png",
+    "description": "Red Floral Wrap Anarkali Kurta With Palazzos, in Georgette fabric, Butter Crepe Lining , Regular Length, Comfort Fit , Zipper Closure, Flared Hemline and features Lace Detail At Waist",
+    "sizes": "S,M,L,XL",
+    "colors": "multi"
+  },
+  {
+    "id": 8,
+    "name": "Orange Hoodie",
+    "brand": "StreetSoul",
+    "price": 29.99,
+    "image": "orange_hoodie.png",
+    "description": "UNISEX Funky FULL SLEEVE Cottonblend-Sweatshirt Hoodie with Kangaroo POCKETS and hooded CAP and Best suitable for winter season, cool places, inner fleece material keep you WARM.",
+    "sizes": "M,L,XL",
+    "colors": "orange"
+  },
+  {
+    "id": 9,
+    "name": "Pink Pleated Skirt",
+    "brand": "SugarPop",
+    "price": 34.5,
+    "image": "pleated_skirt.png",
+    "description": "Pleated mini skirt for a cute look.",
+    "sizes": "XS,S,M",
+    "colors": "pink"
+  },
+  {
+    "id": 10,
+    "name": "Boat Neck Crop Top",
+    "brand": "Petal & Co",
+    "price": 22.0,
+    "image": "boat_neck.png",
+    "description": "Brown boat neck crop tops typically feature a wide neckline that flatters the collarbones and a shortened hem that ends at the waist. They are available in various materials and styles, often designed for a sleek, modern look. ",
+    "sizes": "S,M",
+    "colors": "brown"
+  },
+  {
+    "id": 11,
+    "name": " Coral Maxi",
+    "brand": "Petal & Co",
+    "price": 64.0,
+    "image": "coral_maxi.png",
+    "description": "Coral solid woven maxi dress, has a round neck, short sleeves, concealed zip closure, an attached lining, flared hem",
+    "sizes": "S,M,L",
+    "colors": "coral"
+  },
+  {
+    "id": 12,
+    "name": "Ruffle",
+    "brand": "BloomWear",
+    "price": 32.0,
+    "image": "ruffle.png",
+    "description": "A ruffle dress is a garment adorned with strips of gathered or pleated fabric, known as frills, which create a textured, often voluminous, and decorative effect. This design element adds movement, femininity, and a playful charm to the dress. ",
+    "sizes": "XS,S,M",
+    "colors": "pink"
+  },
+  {
+    "id": 13,
+    "name": "Seashell Top",
+    "brand": "SugarPop",
+    "price": 21.0,
+    "image": "sea_shell.png",
+    "description": " This Non Shrinkable, Non Fadable Round Neck T-Shirt Will Cater a Rich In-Class and Genuine Appearance in Any Kind of Ambience and Will Comfort You with Saving Time Iron-Free.This Casual T-Shirt Is Perfect for Everyone Like School-College Student, Working and Sports Person Etc.Washable: Hand-Wash and It Is Even Machine Washable, So You Just Need to Toss It in the Washing Machine and Relax.Homegrown Indian Brand",
+    "sizes": "S,M,L",
+    "colors": "white"
+  },
+  {
+    "id": 14,
+    "name": "Coral Trousers",
+    "brand": "UrbanChic",
+    "price": 49.0,
+    "image": "coral_trousers.png",
+    "description": "High-waisted coral trousers.Score high on the fashion meter by wearing this pair of coral trousers from Cation. Tailored to sartorial perfection from premium quality fabric, it assures a soft and soothing touch against the skin.",
+    "sizes": "M,L,XL",
+    "colors": "coral"
+  },
+  {
+    "id": 15,
+    "name": "Soft Knit Cardigan",
+    "brand": "Knit&Co",
+    "price": 44.0,
+    "image": "cardigan.png",
+    "description": "Material: Womens cardigan sweaters were made of cozy knit fabric, It will bring you a lightweight and soft feeling. This womens cardigan will be your favorite fall clothes in your wardrobeFeatures: Womens black cardigan, comfy knit duster cardigan. This Casual basic cardigan sweater desgin for a classic style, it can be easily combined, create variety of styles, and never go out of style. This is an essential trendy cardigan outerwear that deserves to be owned by all of usMatch: Lightweight cardigan sweater for women is not too thick or too thin, you mix with dress, pants, short, jeans, skirts to feature a charming and elegant look Occasion: Open front black cardigan for women is perfect for spring, fall and winter, and Thanksgiving night in the house. Long sleeve cardigan sweaters for women have many color to choose, suitable for all occasion, such as daily, home, office, work, busniess, school,party,etc Garment Care: Hand wash or mashine wash, hang dry and not bleach.",
+    "sizes": "S,M,L,XL",
+    "colors": "black"
+  },
+  {
+    "id": 16,
+    "name": "Sun Dress",
+    "brand": "Amber Lane",
+    "price": 39.0,
+    "image": "sundress.png",
+    "description": "A sundress is an informal, casual dress designed for warm weather, characterized by lightweight, breathable fabric, a loose fit, and minimal coverage of the arms, shoulders, and neck. ",
+    "sizes": "S,M,L",
+    "colors": "red"
+  },
+  {
+    "id": 17,
+    "name": "Pleat Midi",
+    "brand": "Lace & Co",
+    "price": 55.0,
+    "image": "pleatmidi.png",
+    "description": "A maroon pleated midi dress is an elegant garment featuring a rich burgundy or wine red hue, characterized by an A-line or fit-and-flare silhouette that flows gracefully from a fitted waist to a hemline between the knee and ankle. The pleats provide beautiful movement and texture. .",
+    "sizes": "S,M,L",
+    "colors": "maroon"
+  },
+  {
+    "id": 18,
+    "name": "Boho Top",
+    "brand": "BloomWear",
+    "price": 27.0,
+    "image": "bohotop.png",
+    "description": "A cream boho top is a free-spirited, nonconformist-style garment in an off-white or beige hue, typically characterized by a relaxed fit, natural fabrics, and decorative details like embroidery, lace, or fringe.",
+    "sizes": "M,L",
+    "colors": "cream"
+  },
+  {
+    "id": 19,
+    "name": "Crochet Vest",
+    "brand": "Knit&Co",
+    "price": 33.0,
+    "image": "crochetvest.png",
+    "description": "A cream beige crochet vest detailed with black, maroon, and brown accents is a stylish, often bohemian-inspired, sleeveless garment featuring intricate open-knit patterns and a rustic, multi-tonal design. The contrasting colors provide a rich, earthy look against the light base.",
+    "sizes": "S,M,L",
+    "colors": "beige"
+  },
+  {
+    "id": 20,
+    "name": "Evening Gown",
+    "brand": "Petal & Co",
+    "price": 120.0,
+    "image": "evegown.png",
+    "description": "Evening gowns in this color are considered timeless classics in formal wear and can come in various elegant silhouettes, including A-line, mermaid, sheath, or ball gown styles. The style can be chosen to flatter different body types.",
+    "sizes": "M,L",
+    "colors": "magenta"
+  }
+]

@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Fashionista — Shop</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="/static/css/style.css">
+
+  <!-- ADD WHATSAPP FLOAT CSS HERE -->
+  <style>
+    .whatsapp-float {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 20px;
+        right: 20px;
+        background-color: #25D366;
+        border-radius: 50%;
+        text-align: center;
+        box-shadow: 0px 3px 8px rgba(0,0,0,0.25);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 999;
+    }
+
+    .whatsapp-float:hover {
+        transform: scale(1.09);
+        transition: 0.2s ease-in-out;
+    }
+
+    .whatsapp-icon {
+        width: 35px;
+        height: 35px;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="brand">fashionista</div>
+
+    <div class="search">
+      <input id="searchInput" placeholder="Search dresses, brands, sizes..." />
+      <select id="brandFilter"><option value="">All brands</option></select>
+      <select id="sortSelect">
+        <option value="">Sort</option>
+        <option value="price_asc">Price ↑</option>
+        <option value="price_desc">Price ↓</option>
+        <option value="name_asc">Name A→Z</option>
+        <option value="name_desc">Name Z→A</option>
+      </select>
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div class="nav-actions">
+      <a href="/cart" class="small">Cart (<span id="cartCount">0</span>)</a>
+      <a href="#" id="favLink" class="small">Favorites (<span id="favCount">0</span>)</a>
+
+      {% if session.get('user') %}
+        <span class="small">Hi, {{ session.get('user').get('name') }}</span>
+        <a href="/logout" class="small">Logout</a>
+
+        {% if session.get('user').get('is_admin') %}
+          <a href="/admin" class="small">Admin</a>
+        {% endif %}
+
+      {% else %}
+        <a href="/login" class="small">Login</a>
+        <a href="/signup" class="small">Sign up</a>
+      {% endif %}
+    </div>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/7358337386?text=Hello%20Fashionista!" class="whatsapp-float" target="_blank">
+        <img src="/static/icons/whatsapp.png" class="whatsapp-icon" alt="WhatsApp">
+    </a>
+
+  </header>
+
+  <main class="container">
+    <section id="productsGrid" class="grid"></section>
+  </main>
+
+  <footer class="footer">
+    <p> Fashionista <footer class="footer">
+    <p> Made with ❤️ by Nivedhitha — 2025</p>
+</footer>
+</p>
+  </footer>
+
+  <script src="/static/js/main_v2.js"></script>
+</body>
+</html>
