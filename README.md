@@ -92,7 +92,7 @@ See requirements.txt for complete list.
 License
 MIT License (Demo Project)
 
-Author
+Author:
 Nivedhitha K
 
 
