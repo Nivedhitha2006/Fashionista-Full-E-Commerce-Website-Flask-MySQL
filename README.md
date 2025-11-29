@@ -26,7 +26,7 @@
 
 ## Overview
 
-**Fashionista v2** is a **full-stack e-commerce demo** showcasing a fashion store with interactive features, user authentication, and an admin panel. Built using **Python Flask**, **MySQL**, **HTML/CSS/JS**, it provides a modern, responsive, and animated UI for demonstration purposes.
+**Fashionista ** is a **full-stack e-commerce demo** showcasing a fashion store with interactive features, user authentication, and an admin panel. Built using **Python Flask**, **MySQL**, **HTML/CSS/JS**, it provides a modern, responsive, and animated UI for demonstration purposes.
 
 ## Features
 
