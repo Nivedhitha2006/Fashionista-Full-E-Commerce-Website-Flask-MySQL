@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fashionista-full-e-commerce-website.vercel.app/sitemap.xml

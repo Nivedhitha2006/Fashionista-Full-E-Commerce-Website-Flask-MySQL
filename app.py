@@ -256,5 +256,13 @@ def admin_new_product():
         return redirect(url_for('admin_products'))
     return render_template('admin/new_product.html')
 
+@app.route('/sitemap.xml')
+def sitemap():
+    return send_from_directory('static', 'sitemap.xml')
+
+@app.route('/robots.txt')
+def robots():
+    return send_from_directory('static', 'robots.txt')
+
 if __name__=='__main__':
     app.run(debug=True)
