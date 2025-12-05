@@ -263,7 +263,7 @@ def sitemap():
     return send_from_directory('.', 'sitemap.xml', mimetype='application/xml')
 
 
-@@app.route('/robots.txt')
+@app.route('/robots.txt')
 def robots():
     return send_from_directory('.', 'robots.txt', mimetype='text/plain')
 
