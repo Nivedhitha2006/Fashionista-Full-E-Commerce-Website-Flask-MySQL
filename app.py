@@ -256,13 +256,17 @@ def admin_new_product():
         return redirect(url_for('admin_products'))
     return render_template('admin/new_product.html')
 
+from flask import send_from_directory
+
 @app.route('/sitemap.xml')
 def sitemap():
-    return send_from_directory('static', 'sitemap.xml')
+    return send_from_directory('.', 'sitemap.xml', mimetype='application/xml')
 
-@app.route('/robots.txt')
+
+@@app.route('/robots.txt')
 def robots():
-    return send_from_directory('static', 'robots.txt')
+    return send_from_directory('.', 'robots.txt', mimetype='text/plain')
+
 
 if __name__=='__main__':
     app.run(debug=True)
